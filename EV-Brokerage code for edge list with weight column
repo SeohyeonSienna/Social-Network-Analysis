@@ -100,4 +100,4 @@ write.csv(result, file = csv_file_path, row.names = FALSE)
 cat("Brokerage scores saved to", csv_file_path, "\n")
 
 
-Cited from "https://github.com/babak2/EV-brokerage"
+# Cited from "https://github.com/babak2/EV-brokerage"
