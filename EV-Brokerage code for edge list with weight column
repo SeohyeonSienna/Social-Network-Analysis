@@ -1,3 +1,7 @@
+library(tidygraph)
+library(igraph)
+library(ggraph)
+
 ev_brokerage <- function(g, as.graph= FALSE, all.values=FALSE){
   
   if_else <- dplyr::if_else
@@ -71,10 +75,6 @@ ev_brokerage <- function(g, as.graph= FALSE, all.values=FALSE){
   
   return (res)
 }
-
-library(tidygraph)
-library(igraph)
-library(ggraph)
 
 # Load network data with weight column
 data <- 
